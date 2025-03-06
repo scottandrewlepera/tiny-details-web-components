@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    Max Character Count Demo
+  </title>
+  <style>
+
+    html {
+      font-family: sans-serif;
+    }
+
+    body {
+      margin: 1em;
+    }
+
+    .max-char-counter {
+      display: inline-block;
+      margin-left: 0.5em;
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    .max-char-counter-warning {
+      color: #c53030;
+      font-weight: bold;
+    }
+
+    #my-textarea {
+      width: 50%;
+      height: 100px;
+      font-size: 1em;
+      padding: 0.5em;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+<body>
+  <textarea id="my-textarea" maxlength="50"></textarea>
+  <div>
+    <p>
+      <max-character-counter for="my-textarea">Characters emaining:</max-character-counter>
+    </p>
+  </div>
+  <script src="../components/max-character-counter.js"></script>
+</body>
+</html>
