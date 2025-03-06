@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>
+    Copy to Clipboard Demo
+  </title>
+  <style>
+    
+    html {
+      font-family: sans-serif;
+    }
+    
+    body {
+      margin: 1em;
+    }
+
+    textarea {
+      width: 250px;
+      height: 150px;
+      font-size: 1em;
+      padding: 0.5em;
+      box-sizing: border-box;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <div id="copy-section">
+    ID: <copy-clip id="copy">2879q87897q988</copy-clip>
+    <span id="message"></span>
+  </div>
+
+  <p>Paste the clipboard contents here.</p>
+  <textarea></textarea>
+
+  <script src="../components/copy-to-clipboard.js"></script>
+
+  <script>
+    const copyClip = document.querySelector('#copy');
+    copyClip.addEventListener('copy-clip', (event) => {
+      const msg = document.querySelector('#message');
+      msg.textContent = "Copied!";
+    });
+  </script>
+</body>
+</html>
