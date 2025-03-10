@@ -9,6 +9,10 @@ A custom web component that adds a "copy to clipboard" button to any text elemen
 - Custom event support for integration
 - No dependencies
 
+# Demo
+
+See the demo [here](../demos/copy-to-clipboard.html).
+
 ## Installation
 
 Include the component script in your HTML:

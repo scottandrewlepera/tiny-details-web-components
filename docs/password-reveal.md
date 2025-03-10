@@ -8,6 +8,10 @@ A custom web component that adds a "show password" checkbox to password input fi
 - Works with any password input field
 - No dependencies
 
+## Demo
+
+See the demo [here](../docs/password-reveal.md).
+
 ## Installation
 
 Include the component in your HTML:

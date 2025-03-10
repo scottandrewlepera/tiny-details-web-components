@@ -9,6 +9,10 @@ A custom web component that adds a dynamic character counter to input elements w
 - Works with any input or textarea element
 - No dependencies
 
+## Demo
+
+See the demo [here](../demos/max-character-counter.html).
+
 ## Installation
 
 Include the component in your HTML:
