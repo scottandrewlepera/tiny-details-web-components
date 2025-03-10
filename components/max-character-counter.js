@@ -1,3 +1,12 @@
+/* Max Character Counter Web Component
+ * Version: 1.0.0
+ * License: GPL-3.0
+ * Author: Scott Andrew LePera
+ * Author URL: https://scottandrew.com
+ * Github URL: https://github.com/scottandrewlepera/
+ * Copyright: 2025 Scott Andrew LePera
+ */
+
 class MaxCharacterCounter extends HTMLElement {
   static COMPONENT_NAME = "max-character-counter";
   #targetEl;
