@@ -1,6 +1,6 @@
-# Web Components
+# Vanilla Sprinkles Web Components
 
-A collection of tiny and useful web components for improving the user experience.
+A collection of tiny and useful web components for improving user experience.
 
 ## Tenets
 
