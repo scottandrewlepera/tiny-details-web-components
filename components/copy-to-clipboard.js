@@ -1,6 +1,6 @@
 /* Copy to Clipboard Web Component
  * Version: 1.0.0
- * License: GPL-3.0
+ * License: MIT
  * Author: Scott Andrew LePera
  * Author URL: https://scottandrew.com
  * Github URL: https://github.com/scottandrewlepera/
