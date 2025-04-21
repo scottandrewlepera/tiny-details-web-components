@@ -5,7 +5,7 @@ A collection of tiny and useful web components for improving the user experience
 ## Tenets
 
 * **Inessential.** The functionality provided by these web components must never be required and their absence must never prevent the user from completing a task.
-* **Minimal.** No dependencies, zero-config, and web-standard APIs.
+* **Minimal.** Usage requires zero changes to existing HTML. No dependencies, zero-config, web-standard APIs.
 * **Agnostic.** Unstyled vanilla JS for use with any web framework or design system.
 
 ## Components
